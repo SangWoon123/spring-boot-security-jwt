@@ -14,3 +14,6 @@ spring:
       dialect: org.hibernate.dialect.MySQL8InnoDBDialect
       hibernate:
         format_sql: true
+
+secret:
+  key: "Fksjdifejs,fAmdsjfn9sksfnsaAfmdkfgmf"
