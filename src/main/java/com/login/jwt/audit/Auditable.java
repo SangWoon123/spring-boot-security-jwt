@@ -1,4 +1,4 @@
-package com.example.demo.audit;
+package com.login.jwt.audit;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Getter
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public class Auditable{
+public class Auditable {
     @CreatedDate
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
